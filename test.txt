@@ -1,0 +1,5 @@
+python -m venv venv
+venv\Scripts\activate.bat
+pip install pandas
+pip [nstall numpy]
+# print(new_df.loc[(new_df['date_time'] >= '2015/05/01 12:00') & (new_df['date_time'] < '2015/05/01 12:16' ), ['date_time','wind_speed', 'humidity']])
